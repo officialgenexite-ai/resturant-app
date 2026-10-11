@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "restaurant-app",
+    "slug": "genexite",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "com.genexite.restaurantapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ebbe64f6-d5ac-40a9-b44d-89b027be0ad3"
+      }
+    },
+    "owner": "aftab1056s-team",
+    "ios": {
+      "bundleIdentifier": "com.genexite.restaurantapp"
+    },
+    "plugins": [
+      "@react-native-google-signin/google-signin"
+    ]
+  }
+}

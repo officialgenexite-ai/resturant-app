@@ -1,0 +1,29 @@
+{
+  "cli": {
+    "version": ">= 5.0.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://mobile-apps-herr.vercel.app/api",
+        "EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID": "798030045998-mbkh22hvts9nhc8tql8hc61n31bgq9vi.apps.googleusercontent.com"
+      }
+    }
+  }
+}
